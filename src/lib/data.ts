@@ -3,7 +3,7 @@ export const personalInfo = {
   location: "Ibaraki, Japan",
   email: "rkesh2003@gmail.com",
   github: "https://github.com/Rikka1073",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  linkedin: "https://qiita.com/masafumi1073",
 };
 
 export const workExperience = [
