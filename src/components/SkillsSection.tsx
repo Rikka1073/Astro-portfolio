@@ -46,15 +46,10 @@ const skillCategoryVariants = {
 
 export default function SkillsSection() {
   return (
-    <section
-      id="skills"
-      className="py-12 bg-gradient-to-b from-background to-muted/20"
-    >
+    <section id="skills" className="py-12 bg-gradient-to-b from-background to-muted/20">
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
-          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🛠️ Skills
-          </h2>
+          <h2 className="text-2xl font-bold mb-8 text-center md:text-left">🛠️ Skills</h2>
         </MotionWrapper>
 
         <motion.div
@@ -90,7 +85,7 @@ export default function SkillsSection() {
             </GlassCard>
           </motion.div>
 
-          <motion.div variants={skillCategoryVariants}>
+          {/* <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
                 <span className="mr-2 text-xl">⚙️</span> Backend Development
@@ -101,9 +96,9 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div variants={skillCategoryVariants}>
+          {/* <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
                 <span className="mr-2 text-xl">🗄️</span> Database & Storage
@@ -114,9 +109,9 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> */}
 
-          <motion.div variants={skillCategoryVariants}>
+          {/* <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">
               <h3 className="text-lg font-medium mb-3 text-center md:text-left flex items-center">
                 <span className="mr-2 text-xl">☁️</span> Cloud & DevOps
@@ -127,7 +122,7 @@ export default function SkillsSection() {
                 ))}
               </div>
             </GlassCard>
-          </motion.div>
+          </motion.div> */}
 
           <motion.div variants={skillCategoryVariants}>
             <GlassCard className="p-4">

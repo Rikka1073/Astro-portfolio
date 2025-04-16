@@ -1,93 +1,53 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
+  name: "Masafumi",
+  location: "Ibaraki, Japan",
   email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
+  github: "https://github.com/Rikka1073",
   linkedin: "https://www.linkedin.com/in/rishikeshs/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "金融サービス申込システム開発",
+    location: "リモート",
+    position: "フロントエンドエンジニア",
+    period: "2024年10月 - 現在",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "大手保険会社のオンライン申込システム開発案件にフロントエンドエンジニアとして参画。",
+      "Next.jsを使用したモダンなUIの設計・実装を担当。特にReact Hook Formを活用し、複雑な申込フォームにおける入力バリデーションシステムを構築。ユーザビリティと入力精度の向上を実現した。",
+      "開発仕様書の作成など上流工程にも少しずつ携わり始め、要件理解のスキルを徐々に磨いている段階。",
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "教育情報サイト運用",
+    location: "リモート",
+    position: "運用エンジニア",
+    period: "2021年5月 - 2024年3月",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
-    ],
-  },
-  {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
-    achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "NORENというCMSを活用し、教育系情報サイトの運用業務に3年間従事。",
+      "単なるコーディング作業にとどまらず、運用フロー全体の最適化にも取り組んだ。具体的には、サイト修正から本番公開までの週次フローを構築し、チームメンバー同士が常に案件の進行状況を共有できる体制を設計。複数作業者が同時に作業する際の修正もれや作業被りを防止するための管理シートも作成した。",
+      "また、学習用教材のデモアプリをJavaScriptで開発し、ユーザーの学習体験向上に貢献。さらに、コーポレートサイトのリニューアルプロジェクトでは、構築からリリースまでを一貫して担当した。",
+      "これらの取り組みを通じて、運用チーム全体の効率化とコミュニケーション向上に大きく貢献し、より質の高いサービス提供に寄与した。",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
-    ],
+    institution: "経営学",
+    location: "駒澤大学, 東京 日本",
+    degree: "経営学",
+    period: "2018年4月 - 2021年3月",
+    achievements: [],
   },
 ];
 export const skills = {
-  programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
-    "Java",
-    "Solidity",
-  ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
-  ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
+  programmingLanguages: ["TypeScript", "JavaScript"],
+  frontendDevelopment: ["Nextjs", "Reactjs", "Shadcn UI", "Tailwind CSS", "HTML", "CSS"],
+  backendDevelopment: [],
+  databaseAndStorage: [],
   cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
-  ],
+  toolsAndServices: ["Clerk (Auth)", "microCMS (CMS)", "GitHub", "Vercel"],
 };
 
 export const projects = [
