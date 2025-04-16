@@ -43,34 +43,22 @@ export const education = [
 ];
 export const skills = {
   programmingLanguages: ["TypeScript", "JavaScript"],
-  frontendDevelopment: ["Nextjs", "Reactjs", "Shadcn UI", "Tailwind CSS", "HTML", "CSS"],
+  frontendDevelopment: ["Nextjs", "Reactjs", "chakra-ui", "Tailwind CSS", "HTML", "CSS"],
   backendDevelopment: [],
   databaseAndStorage: [],
   cloudAndDevOps: ["AWS"],
-  toolsAndServices: ["Clerk (Auth)", "microCMS (CMS)", "GitHub", "Vercel"],
+  toolsAndServices: ["Clerk (Auth)", "microCMS (CMS)", "GitHub", "Vercel", "Supabase", "Firebase"],
 };
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "アイドルの服装情報を共有できるアプリ",
+    github: "https://github.com/Rikka1073/Typescript-idol-app",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
-    ],
-  },
-  {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
-    description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      "推しのアイドルの服装情報を共有できるアプリ（アプリ名：K-Style Finder）を開発。",
+      "React + TypeScriptを使用して、ユーザーが簡単に服装情報を投稿できるUIを設計。特に、chakra-uiを活用し、ユーザーが直感的に操作できるようなデザインを心掛けた。",
+      "データベースにはSupabaseを使用し、ユーザーが投稿した服装情報を効率的に管理。これにより、アプリのパフォーマンスとスケーラビリティを向上させた。",
+      "デプロイにはfirebaseを使用し、CI/CDパイプラインを構築。これにより、コードの変更が自動的に本番環境に反映されるようになり、開発効率が大幅に向上した。",
     ],
   },
 ];
